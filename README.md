@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ### nginx 配置文件
 touch /etc/nginx/site_enabled/aweblog.conf
 
-### 生成虚拟数据(虚拟环境下执行)
+### 生成虚拟数据
 flask gen-fake-data --cn 10
 ###  启停脚本
 cd Flask_bird/bin <br>
